@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Ubuntu:400,500,700);body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: .89rem;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 2em;
+  height: 2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: white;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+/* ----
+CUSTOM CODE
+
+Brett Boylen: 2018-2019
+
+---- */
+
+.slider-row {
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-image: url(http://walkinpartsexpress-local.s3.us-east-1.amazonaws.com/images/slider.jpg);
+}
+
+.list-inside {
+  list-style-position: inside;
+}

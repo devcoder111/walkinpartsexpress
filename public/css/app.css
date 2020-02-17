@@ -1,0 +1,359 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700);body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: .89rem;
+}
+
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 2em;
+  height: 2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: white;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.table-conent {
+  height: 60vh;
+  padding-top: 25px;
+}
+
+.table-case {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-case thead tr th {
+  padding-left: 10px;
+}
+
+.table-case tbody tr td {
+  height: 26px;
+  padding: 8px 10px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+/* ----
+CUSTOM CODE
+
+Brett Boylen: 2018-2019
+
+---- */
+
+.slider-row {
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-image: url(http://walkinpartsexpress-local.s3.us-east-1.amazonaws.com/images/slider-2.jpg);
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.block-commerce-cart .block-cart-alter-content .block-cart-alter-content-top {
+  background: transparent url(http://walkinpartsexpress-local.s3.us-east-1.amazonaws.com/images/cart-icon.png) scroll 0 0 no-repeat;
+  position: relative;
+  padding: 15px 0 0 60px;
+}
+
+.block-commerce-cart .block-cart-alter-content .user-cart-quantity {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  height: 21px;
+  line-height: 21px;
+  position: absolute;
+  left: 17px;
+  text-align: center;
+  top: 5px;
+  width: 21px;
+  border-radius: 100px;
+  background-color: #cecece;
+  display: block;
+}
+
+.block-commerce-cart .block-cart-alter-content .user-cart-quantity {
+  background-color: #0a3c9d;
+}
+
+.footer-social {
+  padding: 9px 0;
+  border-top: 1px solid #2b5468;
+  border-bottom: 1px solid #2b5468;
+  width: 100%;
+}
+
+.social-header-icons {
+  margin-right: 5vw;
+}
+
+.list-height {
+  line-height: 2;
+}
+
+.cart-btn {
+  width: 50%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: -ms-border-color .15s ease-in-out, box-shadow 1.15s ease-in-out;
+  margin-left: 5vh;
+}
+
+/*----- Genral Classes start ------*/
+
+.wrapper,
+.copyright {
+  padding: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
+hr {
+  margin: 30px 20px;
+  border-top: 2px solid #1c1e26;
+  border-bottom: 2px solid #38404d;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/*---- Genral classes end -------*/
+
+/*Change icons size here*/
+
+.social-icons .fa {
+  font-size: 1.2em;
+}
+
+/*Change icons circle size and color here*/
+
+.social-icons .fa {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  color: rgba(255, 255, 255, .8);
+  transition: all .3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa {
+  border-radius: 50%;
+}
+
+.social-icons.icon-rounded .fa {
+  border-radius: 5px;
+}
+
+.social-icons.icon-flat .fa {
+  border-radius: 0;
+}
+
+.social-icons .fa:hover,
+.social-icons .fa:active {
+  color: #fff;
+  box-shadow: 1px 1px 3px #333;
+}
+
+.social-icons.icon-zoom .fa:hover,
+.social-icons.icon-zoom .fa:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.social-icons.icon-rotate .fa:hover,
+.social-icons.icon-rotate .fa:active {
+  -webkit-transform: scale(1.1) rotate(360deg);
+          transform: scale(1.1) rotate(360deg);
+}
+
+.social-icons .fa-adn {
+  background-color: #504e54;
+}
+
+.social-icons .fa-apple {
+  background-color: #aeb5c5;
+}
+
+.social-icons .fa-android {
+  background-color: #a5c63b;
+}
+
+.social-icons .fa-bitbucket,
+.social-icons .fa-bitbucket-square {
+  background-color: #036;
+}
+
+.social-icons .fa-bitcoin,
+.social-icons .fa-btc {
+  background-color: #f7931a;
+}
+
+.social-icons .fa-css3 {
+  background-color: #1572b7;
+}
+
+.social-icons .fa-dribbble {
+  background-color: #f46899;
+}
+
+.social-icons .fa-dropbox {
+  background-color: #018bd3;
+}
+
+.social-icons .fa-facebook,
+.social-icons .fa-facebook-square {
+  background-color: #3c599f;
+}
+
+.social-icons .fa-flickr {
+  background-color: #ff0084;
+}
+
+.social-icons .fa-foursquare {
+  background-color: #0086be;
+}
+
+.social-icons .fa-github,
+.social-icons .fa-github-alt,
+.social-icons .fa-github-square {
+  background-color: #070709;
+}
+
+.social-icons .fa-google-plus,
+.social-icons .fa-google-plus-square {
+  background-color: #cf3d2e;
+}
+
+.social-icons .fa-html5 {
+  background-color: #e54d26;
+}
+
+.social-icons .fa-instagram {
+  background-color: #a1755c;
+}
+
+.social-icons .fa-linkedin,
+.social-icons .fa-linkedin-square {
+  background-color: #0085ae;
+}
+
+.social-icons .fa-linux {
+  background-color: #fbc002;
+  color: #333;
+}
+
+.social-icons .fa-maxcdn {
+  background-color: #f6ae1c;
+}
+
+.social-icons .fa-pagelines {
+  background-color: #241e20;
+  color: #3984ea;
+}
+
+.social-icons .fa-pinterest,
+.social-icons .fa-pinterest-square {
+  background-color: #cc2127;
+}
+
+.social-icons .fa-renren {
+  background-color: #025dac;
+}
+
+.social-icons .fa-skype {
+  background-color: #01aef2;
+}
+
+.social-icons .fa-stack-exchange {
+  background-color: #245590;
+}
+
+.social-icons .fa-stack-overflow {
+  background-color: #ff7300;
+}
+
+.social-icons .fa-trello {
+  background-color: #265a7f;
+}
+
+.social-icons .fa-tumblr,
+.social-icons .fa-tumblr-square {
+  background-color: #314e6c;
+}
+
+.social-icons .fa-twitter,
+.social-icons .fa-twitter-square {
+  background-color: #32ccfe;
+}
+
+.social-icons .fa-vimeo-square {
+  background-color: #229acc;
+}
+
+.social-icons .fa-vk {
+  background-color: #375474;
+}
+
+.social-icons .fa-weibo {
+  background-color: #d72b2b;
+}
+
+.social-icons .fa-windows {
+  background-color: #12b6f3;
+}
+
+.social-icons .fa-xing,
+.social-icons .fa-xing-square {
+  background-color: #00555c;
+}
+
+.social-icons .fa-youtube,
+.social-icons .fa-youtube-play,
+.social-icons .fa-youtube-square {
+  background-color: #c52f30;
+}
+
+@media screen and (max-width: 768px) {
+  .cart-btn {
+    display: block !important;
+    margin: 0 !important;
+    margin-bottom: 4vh !important;
+    font-size: 2rem;
+  }
+
+  .content-width {
+    width: 100% !important;
+  }
+
+  .conent-btn {
+    padding-top: 1.25rem !important;
+    padding-bottom: 2.25rem !important;
+  }
+}
